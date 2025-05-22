@@ -42,11 +42,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_LGUI,  KC_LALT,                            KC_SPC,                             KC_RALT,  MO(_FN2), MO(_FN3), KC_RCTL),
 
     [_FN1] = LAYOUT_ansi_61(
-        KC_GRV,  KC_BRID,  KC_BRIU, KC_NO,   KC_NO,   RM_VALD, RM_VALU, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE,  KC_VOLD,  KC_VOLU,  RM_NEXT,
-        RM_TOGG, RM_NEXT,  RM_VALU, RM_HUEU, RM_SATU, RM_SPDU, _______, _______, _______, _______, KC_INS,   KC_PGUP,  KC_HOME,  _______,
-        _______, RM_PREV,  RM_VALD, RM_HUED, RM_SATD, RM_SPDD, _______, _______, KC_UP,   KC_NO,   KC_PGDN,  KC_END,             _______,
-        _______,           _______, _______, _______, _______, _______, NK_TOGG, KC_LEFT, KC_DOWN, KC_RIGHT, KC_DEL,             _______,
-        _______, _______,  _______,                            _______,                            _______,  _______,  _______,  _______),
+        KC_GRV,  KC_BRID,  KC_BRIU, KC_NO,   KC_NO,    RM_VALD, RM_VALU, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE,  KC_VOLD,  KC_VOLU,  RM_NEXT,
+        RM_TOGG, RM_NEXT,  RM_VALU, RM_HUEU, RM_SATU,  RM_SPDU, _______, _______, _______, _______, KC_INS,   KC_PGUP,  KC_HOME,  _______,
+        _______, KC_LEFT,  KC_DOWN, KC_UP,   KC_RIGHT, RM_SPDD, _______, _______, _______, KC_NO,   KC_PGDN,  KC_END,             _______,
+        _______,           _______, _______, _______,  _______, _______, NK_TOGG, _______, _______, _______,  KC_DEL,             _______,
+        _______, _______,  _______,                             _______,                            _______,  _______,  _______,  _______),
 
     [_FN2] = LAYOUT_ansi_61(
         KC_GRV,  KC_BRID,  KC_BRIU, KC_NO,   KC_NO,   RM_VALD, RM_VALU, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE,  KC_VOLD,  KC_VOLU,  RM_NEXT,
